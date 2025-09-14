@@ -20,7 +20,7 @@ function Courses() {
             courseCode={`${course.course_tag} ${course.course_number}`}
             title={course.course_name}
             desciption={course.course_description}
-            creditHours={course.course_description}
+            creditHours={course.course_credits}
           />
 
         </div>
